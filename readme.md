@@ -8,4 +8,5 @@ git status #查看当前状态
 git commit --all -m "这是修改说明" # 当前所有修改过的文件都放入仓库
 git log #查看日志
 git log --oneline #精简版log
-git reset --hard Head~0 #还原最后一次备份
+git reset --hard Head~0 #回退上一次提交的状态 -回退
+git reset --hard Head~1 #回退上上次提交的状态 -回退+1
