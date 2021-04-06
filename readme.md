@@ -6,3 +6,6 @@ git add ./xxx  #添加所要备份的文件
 git commit -m "这是修改说明"  #把文件放入仓库中
 git status #查看当前状态 
 git commit --all -m "这是修改说明" # 当前所有修改过的文件都放入仓库
+git log #查看日志
+git log --oneline #精简版log
+git reset --hard Head~0 #还原最后一次备份
