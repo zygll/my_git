@@ -20,3 +20,7 @@
 - `git checkout [分支名]`
 ## 合并分支
 - `git merge [分支名]`
+## push github远程服务器仓库 
+`git push https:github.com/xxx.git master` 
+## 用SSH生成公钥 ->在电脑 C:\xxx\.ssh\id_rsa.pub  在个人的github上把公钥复制上去即可
+` ssh-keygen -t rsa -C "邮箱地址" `
